@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- Raw GEO downloads (large, re-downloaded automatically by GEOparse) ---
+*.soft
+*.soft.gz
+GSE*_family*
+data/*
+!data/.gitkeep
+
+# --- Regenerated analysis outputs (written next to the notebook when it runs) ---
+notebooks/*.xlsx
+notebooks/*.csv
+notebooks/*.png
+notebooks/GSEA_*_results/
+results/*
+!results/.gitkeep

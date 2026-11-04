@@ -1,0 +1,30 @@
+# Python dependencies for notebooks/breast_cancer_biomarker_discovery.ipynb
+# R (>= 4.2) with Bioconductor packages `limma` and `Biobase` is also required (see README).
+
+# Data access
+GEOparse>=2.0.4
+mygene>=3.2
+requests>=2.31
+
+# Core data handling
+numpy>=1.26
+pandas>=2.0
+xlsxwriter>=3.1
+
+# Statistics / ML
+scipy>=1.11
+scikit-learn>=1.3
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+
+# Enrichment & networks
+gseapy>=1.1
+networkx>=3.2
+
+# Python <-> R bridge (limma)
+rpy2>=3.5
+
+# Notebook runtime
+jupyter
